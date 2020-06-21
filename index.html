@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<!--
+ index.html LICS
+ Version 0.1.1, 09/22/2014
+ Written by Ed Arvelaez
+
+ Small showcase of an HTML+JavaScript game 
+-->
+
+<meta name="description" content="showcase code assignment game" />
+<meta name="keywords" content="game,click,cards,match,line" />
+<meta name="author" content="Ed Arvelaez" />
+<meta http-equiv="content-type"  content="text/html;charset=utf-8" />
+<!-- <meta charset="utf-8" /> -->
+<link type="text/css" rel="stylesheet" media="screen" href="reset.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="lics.css" />
+
+<script type="text/javascript" src="util.js"></script>
+<script type="text/javascript" src="seethecode.js"></script>
+<script type="text/javascript" src="actionengine.js"></script>
+<script type="text/javascript" src="pathfinder.js"></script>
+<script type="text/javascript" src="gameplay.js"></script>
+<script type="text/javascript" src="settingsscreen.js"></script>
+<title>LICS Showcase</title>
+</head>
+<body>
+<div>
+  See the code:
+  <select id="sltSeeTheCode">
+    <option>Select a script</option>
+    <option value="src/gameplay.html">Gameplay code</option>
+    <option value="src/pathfinder.html">Pathfinding code</option>
+    <option value="src/settingsscreen.html">Settings screen handlers</option>
+    <option value="src/actionengine.html">Action engine</option>
+    <option value="src/util.html">Utility methods</option>
+    <option value="src/index.html">Source Markup</option>
+    <option value="src/lics.html">CSS Styling</option>
+    <option value="src/reset.html">CSS reset</option>
+  </select>
+</div>
+
+<div id="settingsScreen">
+  <div style="text-align : center ;">LICS -Game Demo</div><br />
+  <div>
+    Size:
+    <select id="sltSize">
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+    </select>
+  </div>
+  <div>
+    Faces:
+    <select id="sltFaces">
+      <option value="10">10</option>
+      <option value="12">12</option>
+      <option value="16">16</option>      
+    </select>
+  </div><br />
+  <div style="text-align : center ;"><span id="spanStart"> Start </span></div>
+</div>
+<div id="gameScreen" style="display: none ;">
+  <div class="leftDiv">
+    <table id="tblBoard" class="unselectable" unselectable="on">
+    </table>
+  </div>
+  <div class="rightDiv">
+    <div id="divTime">Time : <span id="spanTime">-1</span></div>
+    <div id="divPoints">Points : <span id="spanPoints">0</span></div>
+    <div id="divMultiplier" class="multiplierTimesOne">Multiplier <span id="spanMultiplier">x1</span> <span id="spanMultiplierTime"></span></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div id="endOfGameScreen" style="display: none ;">
+  <div id="divGameOver" style="text-align : center;">Title</div>
+  <div id="winInfo">
+    <div>Points: <span id="spanEndPoints">0</span></div>
+    <div>Time left: <span id="timeLeft">-1</span> X 100 = <span id="timeBonus">100</span></div>
+    <div>Victory bonus: <span id="victoryBonus">1000</span></div>
+  </div>
+  <div>Total: <span id="total">1000</span></div>
+  <div style="text-align : center ;"><span id="spanAgain"> Play again </span></div>
+</div>
+</body>
+</html>

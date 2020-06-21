@@ -1,0 +1,232 @@
+/*
+ * lics.css LICS Game Demo
+ * Version 0.1.1, 09/22/2014
+ * Written by Ed Arvelaez
+ *
+ * Small showcase of an HTML+JavaScript game
+ */
+
+.portrait
+{
+  width : 45px ;
+  height : 45px ;
+  
+}
+
+.unselectable
+{
+ -webkit-touch-callout : none ;
+ -webkit-user-select : none ;
+ -khtml-user-select : none ;
+ -moz-user-select : none ;
+ -ms-user-select : none ;
+ user-select : none ;
+}
+
+table , th , td
+{
+  border : 1px #000080 solid ;
+}
+
+td.selected
+{
+  border : 1px #00ffff solid ;
+}
+
+td.path
+{
+  background-color : blue ;
+}
+
+body
+{
+  background-color:#000066;
+  width : 100% ;
+  height : 100% ;
+  color : white ;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  margin-top : 20px ;
+}
+
+#settingsScreen
+{
+  width : 25% ;
+  margin : 0 auto ;
+  margin-top : 15% ;
+  border-color : white ;
+  border-width : 3px ;
+  border-style : solid ;
+  padding : 10px ;
+}
+
+#endOfGameScreen
+{
+  width : 25% ;
+  margin : 0 auto ;
+  margin-top : 15% ;
+  border-color : white ;
+  border-width : 3px ;
+  border-style : solid ;
+  padding : 10px ;
+}
+
+option
+{
+  padding-left : 5px ;
+  padding-right : 10px ;
+}
+
+#spanStart , #spanAgain
+{
+  font-size : 24px ;
+  background-color : #00ffff ;
+  padding : 1px ;
+  cursor : pointer ; cursor : hand ;
+}
+
+
+#gameScreen
+{
+  width : 100% ;
+  /*height : 100% ;*/
+}
+
+.leftDiv
+{
+  float : left ;
+  padding-left : 60px ;
+  padding-right : 60px ;
+}
+
+.rightDiv
+{
+  float :left ;
+}
+
+.clear
+{
+  clear : both ;
+}
+
+.hidden
+{
+  display : none ;
+}
+
+#divPoints , #divTime
+{
+  font-weight : bold ;
+  font-size : 24px ;
+}
+
+.multiplierTimesOne
+{
+  font-size : 16px ;
+}
+
+.multiplierTimesTwo
+{
+  font-size : 20px ;
+  color: yellow ;
+}
+
+.multiplierTimesThree
+{
+  font-weight : bold ;
+  font-size : 24px ;
+  color : orange ;
+}
+
+.multiplierTimesFour
+{
+  font-weight : bold ;
+  font-size : 30px ;
+  color : red ;
+}
+
+
+
+.portrait0
+{
+  background : url( 'sc_portraits_small.png' ) 0px 0px ;
+}
+
+.portrait1
+{
+  background : url( 'sc_portraits_small.png' ) -45px 0px ;
+}
+
+.portrait2
+{
+  background : url( 'sc_portraits_small.png' ) -90px 0px ;
+}
+
+.portrait3
+{
+  background : url( 'sc_portraits_small.png' ) -135px 0px ;
+}
+
+.portrait4
+{
+  background : url( 'sc_portraits_small.png' ) -180px 0px ;
+}
+
+.portrait5
+{
+  background : url( 'sc_portraits_small.png' ) -225px 0px ;
+}
+
+.portrait6
+{
+  background : url( 'sc_portraits_small.png' ) 0px -45px ;
+}
+
+.portrait7
+{
+  background : url( 'sc_portraits_small.png' ) -45px -45px ;
+}
+
+.portrait8
+{
+  background : url( 'sc_portraits_small.png' ) -90px -45px ;
+}
+
+.portrait9
+{
+  background : url( 'sc_portraits_small.png' ) -135px -45px ;
+}
+
+.portrait10
+{
+  background : url( 'sc_portraits_small.png' ) -180px -45px ;
+}
+
+.portrait11
+{
+  background : url( 'sc_portraits_small.png' ) -225px -45px ;
+}
+
+.portrait12
+{
+  background : url( 'sc_portraits_small.png' ) 0px -90px ;
+}
+
+.portrait13
+{
+  background : url( 'sc_portraits_small.png' ) -45px -90px ;
+}
+
+.portrait14
+{
+  background : url( 'sc_portraits_small.png' ) -90px -90px ;
+}
+
+.portrait15
+{
+  background : url( 'sc_portraits_small.png' ) -135px -90px ;
+}
+
+.portrait16
+{
+  background : url( 'sc_portraits_small.png' ) -180px -90px ;
+}

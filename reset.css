@@ -1,0 +1,138 @@
+/*
+* reset.css: CSS Reset
+* Version: 0.0.0
+* References:
+* - Meyer's css reset v1.0 , 2008021 http://meyerweb.com/eric/tools/css/reset/
+* - Tanket's css reset http://tantek.com/log/2004/undohtml.css
+* - Triploi's reset (David Hellsing) http://monc.se/tripoli/css/generic.css
+* date: release/date/here
+*
+* CSS Reset aims to neutralize the browser-defined base styles that can make
+* websites look and behave different on different browsers
+*/
+
+
+/* Meyer's: General reset */
+
+
+html  , body , div , span , applet , object , iframe , table , caption ,
+tbody , tfoot ,thead , tr , th , td , del , dfn , em , font , img , ins ,kbd ,
+q , s , samp , small ,strike , strong , sub , sup , tt , var , h1 , h2 , h3 ,
+h4 , h5 , h6 , p , blockquote , pre , a , abbr , acronym , address , big ,
+cite , code , dl , dt , dd , ol , ul , li , fieldset , form , label , legend ,
+option , textarea
+{
+	vertical-align : baseline ;
+	font-family : inherit ;
+	font-weight : inherit ;
+	font-style : inherit ;
+	font-size : 100% ;
+	outline : 0 ;
+	padding : 0 ;
+	margin : 0 ;
+	border : 0 ;
+
+  max-height : none ;
+  max-width : none ;
+}
+
+html , body
+{
+    /*Added by Ed*/
+    font-family : 'Times New Roman' , Times , serif ;
+    font-weight : normal ;
+    font-style : normal ;
+    font-size : 16px ;
+    background-color : transparent ;
+    color : black ;
+}
+
+option
+{
+    border-width: 0px ;
+    border-color: transparent ;
+    border-style: none ;
+
+    font-family : 'Times New Roman' , Times , serif ;
+    font-weight : normal ;
+    font-style : normal ;
+}
+
+/* Ed added this */
+select , textarea
+{
+    /*Added by Ed*/
+    background-color : white ;
+    color : black ;
+    line-height: 1.1;
+
+    font-family : 'Times New Roman' , Times , serif ;
+    font-weight : normal ;
+    font-style : normal ;
+}
+
+/* Ed: Normal white space */
+code , kbd , samp , tt , var , textarea , input , select , isindex ,
+listing , xmp , plaintext , nobr
+{
+    white-space: normal ;
+}
+
+pre
+{
+    white-space: pre ;
+}
+
+/* Tanket: Links without decoration, link images without border */
+:link , :visited , blink
+{
+	text-decoration: none;
+}
+a img, :link img, :visited img
+{
+	border: none;
+}
+
+/* Meyer's: remember to define focus styles! */
+:focus
+{
+	outline : 0 ;
+}
+
+/* Meyer's: Clean empty body */
+body
+{
+	background : white ;
+	line-height : 1 ;
+	color : black ;
+}
+
+/* Meyer's: Plain lists */
+ol , ul
+{
+	list-style : none ;
+}
+
+/* Meyer's: tables still need cellspacing="0" in the markup */
+table
+{
+	border-collapse : separate ;
+  border-spacing : 0 ;
+}
+
+/* Meyer's: Plain cells */
+caption , th , td
+{
+	font-weight : inherit ; /*Modified by Ed*/
+	text-align : left ;
+}
+
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before , blockquote:after , q:before , q:after
+{
+	content : "" ;
+}
+blockquote , q
+{
+	quotes : "" "" ;
+}

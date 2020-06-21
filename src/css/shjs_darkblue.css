@@ -1,0 +1,271 @@
+pre.sh_sourceCode  ,
+table.sh_sourceCode tr td ,
+table.sh_sourceCode tr td code
+{
+  vertical-align : baseline ;
+  white-space : pre ;
+  font-weight: normal;
+  font-style: normal;
+  line-height : 1 ;
+
+	font-size : 100% ;
+	outline : 0 ;
+	padding : 0 ;
+	margin : 0 ;
+	border : 0 ;
+
+  font-family:
+    Consolas,
+    Monaco,
+    Lucida Console,
+    Liberation Mono,
+    DejaVu Sans Mono,
+    Bitstream Vera Sans Mono,
+    Courier New,
+    monospace
+}
+
+pre.sh_sourceCode
+{
+  background-color : #000040 ;
+  color : #C7C7C7 ;
+}
+
+table.sh_sourceCode tr td code
+{
+  vertical-align : baseline ;
+  white-space : pre ;
+  color: #C7C7C7;
+}
+
+table.sh_sourceCode tr td
+{
+  padding-right : 1px ;
+  padding-left : 1px ;
+  padding-bottom : 1px ;
+  padding-top : 1px ;
+}
+
+table.sh_sourceCode tr td.sh_linenumber
+{
+  color: #FFFFFF ;
+  text-align : right ;
+  border-right-color: #00FF00 ;
+  border-right-width: 2px ;
+  border-right-style: solid;
+}
+
+table.sh_sourceCode tr td.sh_linebetween
+{
+  background-color: #000030;
+}
+
+table.sh_wide tr td
+{
+  white-space : nowrap ;
+}
+
+pre.sh_wrap
+{
+  white-space : pre-wrap ;
+}
+
+table.sh_sourceCode
+{
+  border-spacing : 0px ;
+  border-collapse : collapse ;
+  border: none ;
+  background-color: #000040;
+}
+
+pre.sh_sourceCode .sh_keyword ,
+table.sh_sourceCode tr td .sh_keyword
+{
+  color: #ffff60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_type ,
+table.sh_sourceCode tr td .sh_type
+{
+  color: #60ff60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_string ,
+table.sh_sourceCode tr td .sh_string
+{
+  color: #ffa0a0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_regexp ,
+table.sh_sourceCode tr td .sh_regexp
+{
+  color: #ffa0a0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_specialchar ,
+table.sh_sourceCode tr td .sh_specialchar
+{
+  color: #ffa500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_comment ,
+table.sh_sourceCode tr td .sh_comment
+{
+  color: #80a0ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_number ,
+table.sh_sourceCode tr td .sh_number
+{
+  color: #42cad9;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_preproc ,
+table.sh_sourceCode tr td .sh_preproc
+{
+  color: #ff80ff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_symbol ,
+table.sh_sourceCode tr td .sh_symbol
+{
+  color: #d8e91b;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_function ,
+table.sh_sourceCode tr td .sh_function
+{
+  color: #ffffff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_cbracket ,
+table.sh_sourceCode tr td .sh_cbracket
+{
+  color: #d8e91b;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_url ,
+table.sh_sourceCode tr td .sh_url
+{
+  color: #ffa0a0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_date ,
+table.sh_sourceCode tr td .sh_date
+{
+  color: #ffff60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_time ,
+table.sh_sourceCode tr td .sh_time
+{
+  color: #ffff60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_file ,
+table.sh_sourceCode tr td .sh_file
+{
+  color: #ffff60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_ip ,
+table.sh_sourceCode tr td .sh_ip
+{
+  color: #ffa0a0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_name ,
+table.sh_sourceCode tr td .sh_name
+{
+  color: #ffa0a0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_variable ,
+table.sh_sourceCode tr td .sh_variable
+{
+  color: #26e0e7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_oldfile ,
+table.sh_sourceCode tr td .sh_oldfile
+{
+  color: #ffa500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_newfile ,
+table.sh_sourceCode tr td .sh_newfile
+{
+  color: #ffa0a0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_difflines ,
+table.sh_sourceCode tr td .sh_difflines
+{
+  color: #ffff60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_selector ,
+table.sh_sourceCode tr td .sh_selector
+{
+  color: #26e0e7;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_property ,
+table.sh_sourceCode tr td .sh_property
+{
+  color: #ffff60;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_value ,
+table.sh_sourceCode tr td .sh_value
+{
+  color: #ffa0a0;
+  font-weight: normal;
+  font-style: normal;
+}
